@@ -35,6 +35,22 @@ body {
     font-size: 20px;
 }
 
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hello1 {
+    animation: zoomIn 0.8s ease-in-out;
+}
+
+
 .BLUEIT {
     margin-left: 270px;
     margin-top: 50px;
